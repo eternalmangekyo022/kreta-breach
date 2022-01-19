@@ -19,9 +19,7 @@ def calcOverallAverage():
 
     return final / len(temp)
 
-overall = calcOverallAverage()
-
 for i in grades:
     print(i)
 
-print(overall)
+print(calcOverallAverage())
